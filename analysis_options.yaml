@@ -1,0 +1,44 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  errors:
+    always_put_required_named_parameters_first: error
+    camel_case_extensions: error
+    camel_case_types: error
+    cancel_subscriptions: warning
+    close_sinks: warning
+    deprecated_member_use: ignore
+    invalid_annotation_target: ignore
+    no_leading_underscores_for_library_prefixes: error
+    prefer_const_constructors: error
+    prefer_single_quotes: warning
+    require_trailing_commas: warning
+    sort_pub_dependencies: warning
+    sort_unnamed_constructors_first: error
+    unnecessary_new: error
+    use_super_parameters: error
+
+linter:
+  rules:
+    always_put_required_named_parameters_first: true
+    always_use_package_imports: true
+    avoid_void_async: true
+    await_only_futures: true
+    camel_case_extensions: true
+    camel_case_types: true
+    cancel_subscriptions: true
+    close_sinks: true
+    directives_ordering: true
+    empty_catches: false
+    empty_statements: false
+    lines_longer_than_80_chars: false
+    no_leading_underscores_for_library_prefixes: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    sort_constructors_first: true
+    sort_pub_dependencies: true
+    sort_unnamed_constructors_first: true
+    use_colored_box: true
+    use_decorated_box: true
+    use_string_in_part_of_directives: true
+    use_super_parameters: true
